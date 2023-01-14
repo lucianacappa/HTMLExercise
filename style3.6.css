@@ -1,18 +1,22 @@
 .body{
-    padding: 100px;
-    display:flex;
+   padding: 100px;
+   display:flex;
+   justify-content: space-evenly;
+}
 
+.info{
+  display: flex;
 }
 
 .main{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  justify-content: space-evenly;
-  display: flex;
-
-  
-
+  margin-left: 20px;
+  color: grey;
 }
 
 .comments{
+  display:flex;
+  align-items: center;
+  margin: 0;
 
 }
